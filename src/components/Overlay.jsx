@@ -31,7 +31,7 @@ const Overlay = () => {
     <Scroll html>
  <div  className="w-screen">
     {/* 1st section */}
-<Section opacity={firstSection} >
+<Section opacity={firstSection} left>
  <h1 className="font-semibold font-serif text-2xl">
   Hello and welcome
 </h1>
@@ -45,7 +45,7 @@ const Overlay = () => {
 <p className="animate-bounce mt-6">↓</p>
 </Section>
  {/* 2nd section */}
- <Section opacity={secondSection}>
+ <Section opacity={secondSection} right>
     <h1 className="font-semibold font-serif text-2xl">
   Here are my skillsets 🔥
 </h1>
@@ -75,7 +75,7 @@ const Overlay = () => {
 
  </Section>
  {/* 3rd section */}
- <Section opacity={thirdSection} >
+ <Section opacity={thirdSection} left>
     <h1 className="font-semibold font-serif text-2xl">
   🤙 Let’s Get in Touch
 </h1>
